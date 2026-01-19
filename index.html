@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -39,24 +39,28 @@
     <section id="profile">
       <div class="section__pic-container">
         <img
-          src="./assets/Profile_1.png"
+          src="./assets/Main.png"
           alt="Naveen Kumar Maturi profile picture"
         />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Naveen Kumar Maturi</h1>
-        <p class="section__text__p2">Senior Software Developer</p>
+        <p class="section__text__p2">Full Stack Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/Naveen Software Developer.pdf')"
+            onclick="window.open('./assets/NaveenKumarMaturi_Resume.pdf')"
           >
             Resume
           </button>
           <button
             class="btn btn-color-1"
-            onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });"
+            onclick="
+              document
+                .getElementById('contact')
+                .scrollIntoView({ behavior: 'smooth' })
+            "
           >
             Contact Info
           </button>
@@ -66,13 +70,15 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/naveenkumarmaturi/'"
+            onclick="
+              location.href = 'https://www.linkedin.com/in/naveenkumarmaturi/'
+            "
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/NAVEENKUMARMATURI/'"
+            onclick="location.href = 'https://github.com/NAVEENKUMARMATURI/'"
           />
         </div>
       </div>
@@ -80,7 +86,11 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' });"
+        onclick="
+          document
+            .getElementById('about')
+            .scrollIntoView({ behavior: 'smooth' })
+        "
       />
     </section>
     <section id="about">
@@ -89,7 +99,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-me-pic.jpg"
+            src="./assets/IMG_1701.jpg"
             alt="Profile picture"
             class="about-pic"
           />
@@ -103,7 +113,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>Software Developer</p>
+              <p>Full Stack Developer</p>
             </div>
             <div class="details-container">
               <img
@@ -124,15 +134,15 @@
               in streamlining processes, reducing operational costs, and
               enhancing system performance. Strong background in system design,
               object-oriented design, and agile methodologies. -->
-              Senior Software Developer with 5 years of experience in developing
-              and optimizing scalable systems across various industries.
-              Recognized for contributions to event-driven architectures,
-              microservices, and cloud solutions, enhancing efficiency and
-              optimizing performance. Proven expertise in system design,
-              object-oriented principles, and Agile methodologies, with a strong
-              focus on CI/CD automation, database optimization, and Test-Driven
-              Development (TDD). Passionate about building high-performance
-              applications and streamlining development processes.
+              Full Stack Developer with 5 years of experience in developing and
+              optimizing scalable systems across various industries. Recognized
+              for contributions to event-driven architectures, microservices,
+              and cloud solutions, enhancing efficiency and optimizing
+              performance. Proven expertise in system design, object-oriented
+              principles, and Agile methodologies, with a strong focus on CI/CD
+              automation, database optimization, and Test-Driven Development
+              (TDD). Passionate about building high-performance applications and
+              streamlining development processes.
             </p>
           </div>
         </div>
@@ -141,7 +151,11 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="document.getElementById('experience').scrollIntoView({ behavior: 'smooth' });"
+        onclick="
+          document
+            .getElementById('experience')
+            .scrollIntoView({ behavior: 'smooth' })
+        "
       />
     </section>
     <section id="experience">
@@ -297,7 +311,11 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });"
+        onclick="
+          document
+            .getElementById('projects')
+            .scrollIntoView({ behavior: 'smooth' })
+        "
       />
     </section>
     <section id="projects">
@@ -317,13 +335,18 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/NAVEENKUMARMATURI/ecommerce-website'"
+                onclick="
+                  location.href =
+                    'https://github.com/NAVEENKUMARMATURI/ecommerce-website'
+                "
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ecommerce-reactwebsite.netlify.app/'"
+                onclick="
+                  location.href = 'https://ecommerce-reactwebsite.netlify.app/'
+                "
               >
                 Website
               </button>
@@ -341,13 +364,16 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/NAVEENKUMARMATURI/CRUDApplication'"
+                onclick="
+                  location.href =
+                    'https://github.com/NAVEENKUMARMATURI/CRUDApplication'
+                "
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href = 'https://github.com/'"
                 style="visibility: hidden"
               >
                 Website
@@ -366,13 +392,19 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/NAVEENKUMARMATURI/MovieManiac-ReactApplication'"
+                onclick="
+                  location.href =
+                    'https://github.com/NAVEENKUMARMATURI/MovieManiac-ReactApplication'
+                "
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://moviemaniac-reactapplication.netlify.app/'"
+                onclick="
+                  location.href =
+                    'https://moviemaniac-reactapplication.netlify.app/'
+                "
               >
                 Website
               </button>
@@ -390,13 +422,19 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/NAVEENKUMARMATURI/zombieRush'"
+                onclick="
+                  location.href =
+                    'https://github.com/NAVEENKUMARMATURI/zombieRush'
+                "
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://naveenkumarmaturi.github.io/zombieRush/'"
+                onclick="
+                  location.href =
+                    'https://naveenkumarmaturi.github.io/zombieRush/'
+                "
               >
                 Website
               </button>
@@ -408,7 +446,11 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });"
+        onclick="
+          document
+            .getElementById('contact')
+            .scrollIntoView({ behavior: 'smooth' })
+        "
       />
     </section>
     <section id="contact">
@@ -450,7 +492,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Naveen Kumar Maturi. All Rights Reserved.</p>
+      <p>Copyright &#169; 2026 Naveen Kumar Maturi. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
